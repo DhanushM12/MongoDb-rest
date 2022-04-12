@@ -2,9 +2,26 @@ POST http://localhost:8000/subscriber/
 Content-Type: application/json
 
 {
-    "name": "GAURAV",
-    "channel": "codingninjas"
+    "name": "**",
+    "channel": "****"
 }
 
 ###
 GET http://localhost:8000/subscriber/
+
+###
+GET http://localhost:8000/subscriber/62511d82c07907535296903d
+
+###
+
+DELETE http://localhost:8000/subscriber/62511d82c07907535296903d
+
+
+###
+PATCH http://localhost:8000/subscriber/62511d5fc07907535296903a
+Content-Type: application/json
+
+{
+    "name": "***",
+    "channel": "***"
+}
